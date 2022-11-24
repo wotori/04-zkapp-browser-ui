@@ -1,5 +1,5 @@
 {
-  "name": "04-zkapp-browser-ui",
+  "name": "04-zkapp-browser-ui2",
   "version": "0.1.0",
   "description": "",
   "author": "",
@@ -23,7 +23,7 @@
     "lint": "npx eslint src/* --fix"
   },
   "lint-staged": {
-    "**/*": [
+    "src/*": [
       "eslint src/* --fix",
       "prettier --write --ignore-unknown"
     ]
@@ -44,6 +44,6 @@
     "typescript": "^4.7.2"
   },
   "peerDependencies": {
-    "snarkyjs": "^0.7.2"
+    "snarkyjs": "^0.7.3"
   }
 }
